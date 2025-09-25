@@ -35,7 +35,7 @@ waypointContainer.style.pointerEvents = 'none';
 document.body.appendChild(waypointContainer);
 
 const topoSlider = document.createElement('input');
-topoSlider.type='range'; topoSlider.min='0'; topoSlider.max='50'; topoSlider.step='0.1'; topoSlider.value='10';
+topoSlider.type='range'; topoSlider.min='0'; topoSlider.max='500'; topoSlider.step='0.01'; topoSlider.value='10';
 topoSlider.style.position='absolute'; topoSlider.style.top='10px'; topoSlider.style.left='10px'; topoSlider.style.zIndex='10';
 document.body.appendChild(topoSlider);
 
